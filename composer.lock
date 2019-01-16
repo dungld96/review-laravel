@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4afac6bebc2fe1080ab58c2e4f545e43",
+    "content-hash": "406f46b640c565dbae390f78d7e70ed2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -208,6 +208,42 @@
                 "schedule"
             ],
             "time": "2018-06-06T03:12:17+00:00"
+        },
+        {
+            "name": "dungld/bruno",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dungld96/bruno.git",
+                "reference": "13d075ef5b0978b15891a79033d23a952bb50f93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dungld96/bruno/zipball/13d075ef5b0978b15891a79033d23a952bb50f93",
+                "reference": "13d075ef5b0978b15891a79033d23a952bb50f93",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.4",
+                "optimus/architect": "~1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "~3.1",
+                "phpunit/phpunit": "~4.7",
+                "satooshi/php-coveralls": "dev-master@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Optimus\\Bruno\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2017-08-29T08:14:27+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -1447,6 +1483,41 @@
                 "serialize"
             ],
             "time": "2018-12-16T21:48:23+00:00"
+        },
+        {
+            "name": "optimus/architect",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/esbenp/architect.git",
+                "reference": "93b1faaeed4b41d9a5c5118925ffdd3933975b27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/esbenp/architect/zipball/93b1faaeed4b41d9a5c5118925ffdd3933975b27",
+                "reference": "93b1faaeed4b41d9a5c5118925ffdd3933975b27",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "~3.1",
+                "phpunit/phpunit": "~4.7",
+                "satooshi/php-coveralls": "dev-master@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Optimus\\Architect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2015-10-29T19:40:54+00:00"
         },
         {
             "name": "paragonie/random_compat",
